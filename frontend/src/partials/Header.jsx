@@ -116,7 +116,7 @@ function Header() {
               </ul>
             </div>
           )}
-          <div className="md:hidden relative">
+          <div className="relative">
             <button onClick={toggleDropdown} className="text-white px-3 py-2 rounded-md text-sm font-medium focus:outline-none">
               <IoMdMenu size={30} />
             </button>
@@ -131,14 +131,7 @@ function Header() {
               </div>
             )}
           </div>
-          <div className="hidden md:flex">
-            <Link to="/" className="text-white px-3 py-2 rounded-md text-sm font-medium">Home</Link>
-            <Link to="/profile" className="text-white px-3 py-2 rounded-md text-sm font-medium">Profile</Link>
-            <Link to="/friend-requests" className="text-white px-3 py-2 rounded-md text-sm font-medium">Friend Requests</Link>
-            <Link to="/chat" className="text-white px-3 py-2 rounded-md text-sm font-medium">Chat</Link>
-            <Link to="/e-library" className="text-white px-3 py-2 rounded-md text-sm font-medium">Library</Link>
-            <span onClick={handleLogout} className="text-white px-3 py-2 rounded-md text-sm font-medium cursor-pointer">Logout</span>
-          </div>
+          
         </div>
       </div>
     </nav>
