@@ -16,7 +16,7 @@ const messageRoutes = require('./routes/messageRoutes');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://661fd2e0699249ce08dc7181--charming-daifuku-19db92.netlify.app/",
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
 }));
