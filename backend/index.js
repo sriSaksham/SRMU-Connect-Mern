@@ -16,7 +16,7 @@ const messageRoutes = require('./routes/messageRoutes');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors({
-    origin: "https://661fd2e0699249ce08dc7181--charming-daifuku-19db92.netlify.app/",
+    origin: "https://srmu-connect-mern.vercel.app",
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
 }));
@@ -43,7 +43,7 @@ const server = app.listen(PORT, () => {
 const io = require('socket.io')(server, {
   pingTimeout: 60000,
   cors: {
-    orgin: 'http://localhost:5173'
+    orgin: 'https://srmu-connect-mern.vercel.app'
   }
 })
 
