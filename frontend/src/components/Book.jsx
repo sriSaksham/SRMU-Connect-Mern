@@ -1,5 +1,7 @@
-
+import algebra from '../assets/algebra.jpeg'
 const Book = ({ imageUrl, bookName, authorName, url }) => {
+  console.log(imageUrl)
+  console.log(algebra)
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden transition duration-300 hover:shadow-lg">
       <a href={url} target="_blank" rel="noopener noreferrer">
