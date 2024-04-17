@@ -6,8 +6,10 @@ import Footer from '../partials/Footer';
 import LeftComponent from './LeftComponent';
 import RightComponent from './RightComponent';
 import ReactPaginate from 'react-paginate';
+import algebra from '../assets/algebra.jpeg'
 
 const Library = () => {
+  console.log(algebra)
   const [books, setBooks] = useState([]);
   const [pageNumber, setPageNumber] = useState(0);
   const booksPerPage = 10;
