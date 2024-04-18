@@ -124,7 +124,7 @@ function Header() {
               <div ref={dropdownRef} className="absolute z-10 top-16 right-0 bg-white border rounded-md shadow-lg py-1 dropdown-menu">
                 <Link to="/" className="block px-4 py-2 mx-2 text-gray-800 hover:bg-gray-100">Home</Link>
                 <Link to="/profile" className="block px-4 py-2 mx-2 text-gray-800 hover:bg-gray-100">Profile</Link>
-                <Link to="/friends" className="block px-4 py-2 mx-2 text-gray-800 hover:bg-gray-100">Friends</Link>
+                <Link to="/friend-request" className="block px-4 py-2 mx-2 text-gray-800 hover:bg-gray-100">Friends Request</Link>
                 <Link to="/chat" className="block px-4 py-2 mx-2 text-gray-800 hover:bg-gray-100">Chat</Link>
                 <Link to="/e-library" className="block px-4 py-2 mx-2 text-gray-800 hover:bg-gray-100">Library</Link>
                 <span onClick={handleLogout} className="block px-4 py-2 mx-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Logout</span>
